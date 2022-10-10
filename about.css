@@ -15,6 +15,7 @@
     right: 0;
     margin: 0 auto;
 }
+
 .nav-btn {
     border: none;
     background-color: var(--themeColor);
@@ -24,4 +25,19 @@
     cursor: pointer;
     border-radius: 10px;
     z-index: 2;
+}
+
+header {
+    align-items: center;
+    padding: 20px;
+}
+
+body {
+margin: 0;
+min-width: 1200px;
+}
+
+#logo {
+    width: 150px;
+    cursor: pointer;
 }
